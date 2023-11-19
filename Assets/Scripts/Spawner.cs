@@ -12,7 +12,7 @@ public class Spawner : MonoBehaviour
     // 매 프레임마다 한 번씩 호출
     void Update()
     {
-        // 타이머가 1초(beat)를 넘어갔다면(크다면)
+        // 타이머가 1초(beat)를 넘어갔다면
         if(timer > beat)
         {
             // 타이머에서 비트(1초)를 빼 줌 = 비트 간격만큼 시간을 차감하여 다음 생성 시간을 설정함
